@@ -37,7 +37,7 @@ dependencies:
       - diffusers==0.14.0
       - moviepy==1.0.3
       - opencv_python==4.7.0.68
-      - Pillow
+      - Pillow==9.0.0
       - scikit_image==0.19.3
       - scipy==1.10.1
       - tensorboardX==2.6
