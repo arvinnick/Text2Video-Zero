@@ -67,13 +67,12 @@ conda env create -f environment.yaml
 conda activate T2VZeroNew
 pip install tomesd
 conda install -c anaconda pillow
-conda install pytorch torchvision cpuonly -c pytorch
 ```
 Please note that the requirements are for Nvidia GPU available machines. If you don't have a GPU, you will need to run
 these lines:
 ```shell
 conda remove pytorch
-conda install -c conda-forge pytorch-cpu
+conda install torch torchvision cpuonly -c pytorch
 ```
 
 
